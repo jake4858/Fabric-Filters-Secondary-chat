@@ -1,0 +1,126 @@
+{
+  "general": {
+    "vanillHud": false,
+    "chatHeads": false,
+    "width": 280,
+    "height": 117,
+    "x": 0,
+    "y": 30,
+    "messageSpace": 0,
+    "lineSpace": 9,
+    "leftPad": 2,
+    "rightPad": 2,
+    "bottomPad": 1,
+    "topPad": 0,
+    "visibility": "vanilla",
+    "advancedchathud.config.general.chatScale": 1.0,
+    "fadeTime": 40,
+    "fadeStart": 100,
+    "fadeType": "linear",
+    "emptyTextColor": "#FFFFFFFF",
+    "hudLineType": "full",
+    "alternateLines": false,
+    "storedLines": 200
+  },
+  "maintab": {
+    "name": "Main",
+    "startingMessage": "",
+    "forward": true,
+    "abbreviation": "Main",
+    "mainColor": "#643F3F3F",
+    "borderColor": "#B4000000",
+    "innerColor": "#64000000",
+    "showUnread": false,
+    "match": [
+      {
+        "pattern": "I will match to text!",
+        "findtype": "literal"
+      }
+    ],
+    "uuid": "58167d37-0a0e-4db1-9a29-112f40926381"
+  },
+  "tabs": [
+    {
+      "name": "Secondary Chat",
+      "startingMessage": "",
+      "forward": false,
+      "abbreviation": "SC",
+      "mainColor": "#643F3F3F",
+      "borderColor": "#B4000000",
+      "innerColor": "#64000000",
+      "showUnread": false,
+      "match": [
+        {
+          "pattern": "[SC]",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "[TC]",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "reported",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "[GSC]",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "[helpop]",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "reports",
+          "findtype": "literal"
+        },
+        {
+          "pattern": ".com",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "(dot)",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "https://",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "staff",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "me -\u003e",
+          "findtype": "literal"
+        },
+        {
+          "pattern": "-\u003e me",
+          "findtype": "literal"
+        }
+      ],
+      "uuid": "20504622-280c-4680-8e7d-902a0516d939"
+    }
+  ],
+  "windows": [
+    {
+      "x": 0.0,
+      "y": 0.9008498583569405,
+      "width": 0.3395784543325527,
+      "height": 0.2549019607843137,
+      "visibility": "vanilla",
+      "tabuuid": "58167d37-0a0e-4db1-9a29-112f40926381",
+      "selected": true
+    },
+    {
+      "x": 0.689695550351288,
+      "y": 0.9041394335511983,
+      "width": 0.3079625292740047,
+      "height": 0.2374727668845316,
+      "visibility": "vanilla",
+      "tabuuid": "20504622-280c-4680-8e7d-902a0516d939",
+      "selected": false
+    }
+  ],
+  "config_version": 1
+}
